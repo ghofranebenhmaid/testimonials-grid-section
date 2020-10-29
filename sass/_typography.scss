@@ -1,0 +1,31 @@
+body {
+   color: white;
+   font-family: 'Barlow Semi Condensed', sans-serif;
+   font-size: 13px;
+}
+
+.author {
+   &__name {
+      font-weight: 600;
+   }
+   &__title {
+      font-weight: 500;
+      opacity: 0.5;
+   }
+}
+
+.card {
+   &__heading {
+      font-size: 25px;
+      font-weight: 600;
+   }
+   &__paragraphe {
+      font-size: 17px;
+      opacity: 0.5;
+      line-height: 22px;
+   }
+
+   &--bg--white {
+      color: var(--veryDarkBlackishBlue);
+   }
+}
